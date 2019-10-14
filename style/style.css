@@ -1,0 +1,82 @@
+.container
+{
+	margin: 0px auto 0px auto;
+	width: 1200px;
+	background-color: #ffffff;
+}
+.logo
+{
+
+ float: left;
+ 
+}
+.logo-image{
+
+	width: 50px;
+	height: 50px;
+}
+.menu-bar{
+	margin-top: 40px;
+display: flex;
+background-color: yellow;
+padding-top: 15px;
+padding-left : 60px;
+}
+.navbar{
+
+
+	width: 100%;
+	
+}
+.navbar {
+
+	text-decoration: none;
+}
+.banner{
+
+	margin-top: 5px;
+	background-color: red;
+	text-align: left;
+}
+*
+ {
+  box-sizing: border-box;
+}
+
+.box
+ {
+  float: left;
+  width: 50%;
+  
+  height: 300px;
+  text-align: left;
+  height: 40px;
+
+}
+
+.boxes::after {
+  content: "";
+  clear: both;
+  display: table;
+   text-align: left;
+  
+    
+}
+.flex{
+
+	display: flex;
+	flex-direction: row;
+}
+.flex >.title{
+background-color: green;
+	width: 100%;
+	margin: 15px;
+	
+}
+.footer
+{
+	background-color: pink;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+}
